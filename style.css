@@ -80,6 +80,7 @@ header .container{
     justify-self: flex-start;
 }
 .navbar-toggler{
+    margin-left: 120px;
     justify-self: center;
     border: none;
     color: #fff;
@@ -95,9 +96,10 @@ header .container{
     position: relative;
 }
 .navbar-collapse{
+    background-color: #bad4cf;
     position: absolute;
     top: 100%;
-    left: 50%;
+    left: 55%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
@@ -118,6 +120,7 @@ header .container{
 }
 /*  */
 .navbar-collapse ul{
+
     list-style-type: none;
 }
 .navbar-collapse li{
